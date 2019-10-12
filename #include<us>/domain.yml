@@ -1,0 +1,119 @@
+slots:
+  type:
+    type: text
+
+intents:
+  - default
+  - renew_h
+  - renew_v
+  - renew_p
+  - coverage_h
+  - coverage_v
+  - greet
+  - goodbye
+  - benefit_health
+  - benefit_vehicle
+  - Time Period
+  - Time Period_FL
+  - Time Period_GP
+  - Documents_H
+  - Documents_V
+  - sum_h
+  - sum_v
+  - Sub-limit_v
+  - Sub-limit_h
+  - Sub-limit_h_fire
+  - Sub-limit_h_theft
+  - Sub-limit_h_skin treatment
+  - Sub-limit_h_Lasik surgery
+
+entities:
+  - type
+
+templates:
+  utter_health_coverage:
+    - 'Covered for all medical day-care treatments such as skin treatment and Lasik surgery'
+    - 'All day care treatments are covered.'
+  utter_period:
+    - 'Insurance is covered for 5 years'
+  utter_grace:
+    - 'You have 30 days grace period!'
+  utter_waiting_period:
+    - 'You will have a wait period of 30 days'
+  utter_health_freelook:
+    - 'Our company provides a freelook period of 15 days'
+  utter_health_skin_limit:
+    - 'For skin treatments, 12000/- per treatment, and max 2 times covered'
+  utter_health_eye_limit:
+    - 'Lasik surgery 30000/- per treatment, max 1 time covered'
+  utter_health_rewnewal_benefits:
+    - 'On renewal, an Additional Sum Insured of 10% of Annual Sum Insured provided on each renewal for every claim-free year up to a maximum of 50%'
+    - 'Complementary health checkup, One coupon per individual policy and two coupons per Floater policy will be offered'
+  utter_health_tax_benefits:
+    - 'Income tax exemption for 1 lakh rupees'
+  utter_health_docs:
+    - 'You will require to submit Medical bills, Policy copy'
+  utter_health_sum:
+    - 'You are insured for 10 lakhs'
+  utter_health_renewal_link:
+    - 'adadad'
+  utter_greet:
+    - 'Hey there, how can I help you?'
+    - 'Hello, Im your virtual assistant, how can I be of your service?'
+    - 'Need any help with insurance?'
+  utter_goodbye:
+    - 'Sad to see you go! :('
+    - 'Always ready to help, bye!'
+    - 'Have a good day!:)'
+    - 'Bye ;)'
+  utter_ask_type:
+    - 'What policy?Health or Vehicle?'
+    - 'Health insurance or Vehicle insurance'
+  utter_vehicle_coverage:
+    - 'can be covered for all own damage treatments such as fire, theft, accident'
+  utter_vehicle_limit_fire:
+    - 'For fire damages policy is limited to Rs.50000/-'
+  utter_vehicle_limit_theft:
+    - 'In case of theft the limit is Rs.30000/-'
+  utter_vehicle_renewal_benefits:
+    - 'An Additional Sum Insured of 10% of Annual Sum Insured provided on each renewal for every claim-free year up to a maximum of 50%'
+    - 'You might get complimentary coupons One coupon per individual policy and two coupons per Floater policy'
+  utter_vehicle_tax_benefits:
+    - 'You are eligible for an income tax exemption for 1 lakh rupees'
+  utter_vehicle_docs:
+    - 'To claim incase of any incident, you are required to produce Driving License copy, Original FIR copy, RC copy of the vehicle with all original keys' 
+  utter_vehicle_sum:
+    - 'Insured sum for vehicle is half of the vehicle value'
+  utter_renewal_link:
+    - 'wsfsfsdf'
+  utter_default_resp:
+    - 'Sorry I didnt get you! :('
+    - 'Still learning, come again'
+    - 'I dont think I can handle that'
+    - 'Sorry I didnt catch that!'
+    - 'Try something else!'
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_ask_type
+  - utter_health_coverage
+  - utter_period
+  - utter_grace
+  - utter_waiting_period
+  - utter_health_freelook
+  - utter_health_skin_limit
+  - utter_health_eye_limit
+  - utter_health_rewnewal_benefits
+  - utter_health_tax_benefits
+  - utter_health_docs
+  - utter_health_sum
+  - utter_health_renewal_link
+  - utter_vehicle_coverage
+  - utter_vehicle_limit_fire
+  - utter_vehicle_limit_theft
+  - utter_vehicle_renewal_benefits
+  - utter_vehicle_tax_benefits
+  - utter_vehicle_docs
+  - utter_vehicle_sum
+  - utter_renewal_link
+  - utter_default_resp

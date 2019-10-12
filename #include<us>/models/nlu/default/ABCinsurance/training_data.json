@@ -1,0 +1,721 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "sup"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "cya"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "Hey there!"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "goodnight"
+      },
+      {
+        "intent": "coverage_h",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "heath ",
+            "entity": "type"
+          }
+        ],
+        "text": "What all does heath policy cover?"
+      },
+      {
+        "intent": "coverage_v",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "What all does vehicle policy cover?"
+      },
+      {
+        "intent": "coverage_h",
+        "entities": [
+          {
+            "start": 14,
+            "end": 20,
+            "value": "heath ",
+            "entity": "type"
+          }
+        ],
+        "text": "What all does heath insurance cover?"
+      },
+      {
+        "intent": "coverage_v",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "What all does vehicle insurance cover?"
+      },
+      {
+        "intent": "coverage_h",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "medical",
+            "entity": "type"
+          }
+        ],
+        "text": "tell me the coverage of medical ?"
+      },
+      {
+        "intent": "coverage_v",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "vehicle  ",
+            "entity": "type"
+          }
+        ],
+        "text": "tell me the coverage of vehicle  ?"
+      },
+      {
+        "intent": "coverage_v",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "coverage of vehicle insurance ?"
+      },
+      {
+        "intent": "coverage_h",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "medical ",
+            "entity": "type"
+          }
+        ],
+        "text": "coverage of medical insurance?"
+      },
+      {
+        "intent": "coverage_h",
+        "entities": [
+          {
+            "start": 11,
+            "end": 19,
+            "value": " health ",
+            "entity": "type"
+          }
+        ],
+        "text": "coverage of health insurance ?"
+      },
+      {
+        "intent": "benefit_health",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "What are all the benefits for health insurance ?"
+      },
+      {
+        "intent": "benefit_vehicle",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "What are all the benefits for vehicle insurance ?"
+      },
+      {
+        "intent": "benefit_health",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "benefits of health insurance ?"
+      },
+      {
+        "intent": "benefit_vehicle",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "benefits of vehicle insurance ?"
+      },
+      {
+        "intent": "benefit_health",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "is there any benefits for health insurance ?"
+      },
+      {
+        "intent": "benefit_vehicle",
+        "entities": [
+          {
+            "start": 26,
+            "end": 33,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "is there any benefits for vehicle insurance ?"
+      },
+      {
+        "intent": "Time Period",
+        "entities": [],
+        "text": "how long is the policy covered ?"
+      },
+      {
+        "intent": "Time Period",
+        "entities": [],
+        "text": "how long is the policy covered for vehicle?"
+      },
+      {
+        "intent": "Time Period",
+        "entities": [],
+        "text": "how long is the policy covered for health?"
+      },
+      {
+        "intent": "Time Period_FL",
+        "entities": [],
+        "text": "how long is the free look period ?"
+      },
+      {
+        "intent": "Time Period_FL",
+        "entities": [],
+        "text": "how many days are free look period ?"
+      },
+      {
+        "intent": "Time Period_FL",
+        "entities": [],
+        "text": "what is the duration of free look period ?"
+      },
+      {
+        "intent": "Time Period_GP",
+        "entities": [],
+        "text": "how long is the free grace period ?"
+      },
+      {
+        "intent": "Time Period_GP",
+        "entities": [],
+        "text": "how many days are grace period ?"
+      },
+      {
+        "intent": "Time Period_GP",
+        "entities": [],
+        "text": "what is the duration of grace period ?"
+      },
+      {
+        "intent": "Time Period_GP",
+        "entities": [],
+        "text": "how long is the free waiting period ?"
+      },
+      {
+        "intent": "Time Period_GP",
+        "entities": [],
+        "text": "what is the duration of waiting period ?"
+      },
+      {
+        "intent": "Time Period_GP",
+        "entities": [],
+        "text": "what is the duration of wating period ?"
+      },
+      {
+        "intent": "Documents_H",
+        "entities": [
+          {
+            "start": 40,
+            "end": 47,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "what kind of documents are required for health insurance ?"
+      },
+      {
+        "intent": "Documents_V",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "vehicle ",
+            "entity": "type"
+          },
+          {
+            "start": 40,
+            "end": 48,
+            "value": "vehicle ",
+            "entity": ""
+          }
+        ],
+        "text": "what kind of documents are required for vehicle insurance ?"
+      },
+      {
+        "intent": "Documents_H",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "what are the documents for health insurance ?"
+      },
+      {
+        "intent": "Documents_V",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "what are the documents for vehicle  insurance ?"
+      },
+      {
+        "intent": "Documents_H",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "health  ",
+            "entity": "type"
+          }
+        ],
+        "text": "what are the documents requirements for health  insurance ?"
+      },
+      {
+        "intent": "Documents_V",
+        "entities": [
+          {
+            "start": 40,
+            "end": 48,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "what are the documents requirements for vehicle insurance ?"
+      },
+      {
+        "intent": "Documents_H",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "documents for health insurance ?"
+      },
+      {
+        "intent": "Documents_V",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "documents for vehicle insurance ?"
+      },
+      {
+        "intent": "sum_h",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "what is sum insured for health insurance ?"
+      },
+      {
+        "intent": "sum_v",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "what is sum insured for vehicle insurance ?"
+      },
+      {
+        "intent": "sum_h",
+        "entities": [
+          {
+            "start": 31,
+            "end": 38,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "what is total cost insured for health insurance ?"
+      },
+      {
+        "intent": "sum_v",
+        "entities": [
+          {
+            "start": 31,
+            "end": 39,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "what is total cost insured for vehicle insurance ?"
+      },
+      {
+        "intent": "sum_h",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "how much is the total sum for health insurance ?"
+      },
+      {
+        "intent": "sum_v",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "how much is the total sum for vehicle insurance ?"
+      },
+      {
+        "intent": "sum_h",
+        "entities": [
+          {
+            "start": 29,
+            "end": 36,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "how much cost  is covered by health insurance ?"
+      },
+      {
+        "intent": "sum_v",
+        "entities": [
+          {
+            "start": 29,
+            "end": 37,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "how much cost  is covered by vehicle insurance ?"
+      },
+      {
+        "intent": "Sub-limit_v",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "what is the limit insured for vehicle  ?"
+      },
+      {
+        "intent": "Sub-limit_h",
+        "entities": [
+          {
+            "start": 30,
+            "end": 37,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "what is the limit insured for health ?"
+      },
+      {
+        "intent": "Sub-limit_v",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "how much is vehicle insurance limited ?"
+      },
+      {
+        "intent": "Sub-limit_h",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "health",
+            "entity": "type"
+          }
+        ],
+        "text": "how much is health insurance limited ?"
+      },
+      {
+        "intent": "Sub-limit_v",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "limit limited vehicle "
+      },
+      {
+        "intent": "Sub-limit_h",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "health",
+            "entity": "type"
+          }
+        ],
+        "text": "limit limited health"
+      },
+      {
+        "intent": "Sub-limit_h_fire",
+        "entities": [],
+        "text": "what is the cost limit insured for fire accident ?"
+      },
+      {
+        "intent": "Sub-limit_h_fire",
+        "entities": [],
+        "text": "fire accident limit insured insurance cost "
+      },
+      {
+        "intent": "Sub-limit_h_fire",
+        "entities": [],
+        "text": "fire limit cost"
+      },
+      {
+        "intent": "Sub-limit_h_theft",
+        "entities": [],
+        "text": "what are the cost limit insured for theft ?"
+      },
+      {
+        "intent": "Sub-limit_h_theft",
+        "entities": [],
+        "text": "theft limit cost "
+      },
+      {
+        "intent": "Sub-limit_h_theft",
+        "entities": [],
+        "text": "theft "
+      },
+      {
+        "intent": "Sub-limit_h_skin treatment",
+        "entities": [],
+        "text": "how much skin treatment is insured for ?"
+      },
+      {
+        "intent": "Sub-limit_h_skin treatment",
+        "entities": [],
+        "text": "skin treatment insured cost how much"
+      },
+      {
+        "intent": "Sub-limit_h_Lasik surgery",
+        "entities": [],
+        "text": "Lasik surgery cost limit"
+      },
+      {
+        "intent": "Sub-limit_h_Lasik surgery",
+        "entities": [],
+        "text": "Lasik surgery how much cost limit limited ?"
+      },
+      {
+        "intent": "renew_h",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "i need to renew health insurance "
+      },
+      {
+        "intent": "renew_h",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "health ",
+            "entity": "type"
+          }
+        ],
+        "text": "renew health need"
+      },
+      {
+        "intent": "renew_v",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "vehicle",
+            "entity": "type"
+          }
+        ],
+        "text": "i need to renew vehicle insurance "
+      },
+      {
+        "intent": "renew_p",
+        "entities": [],
+        "text": "i need to renew my personal information "
+      },
+      {
+        "intent": "renew_p",
+        "entities": [],
+        "text": "i need to renew my personal data"
+      },
+      {
+        "intent": "renew_p",
+        "entities": [],
+        "text": "i need to renew my personal details"
+      },
+      {
+        "intent": "renew_p",
+        "entities": [],
+        "text": "personal need renew data details"
+      },
+      {
+        "intent": "renew_v",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "vehicle ",
+            "entity": "type"
+          }
+        ],
+        "text": "vehicle renew need"
+      },
+      {
+        "intent": "default",
+        "entities": [],
+        "text": "tell me a joke"
+      },
+      {
+        "intent": "default",
+        "entities": [],
+        "text": "i dont know you"
+      },
+      {
+        "intent": "default",
+        "entities": [],
+        "text": "wsdfsdf"
+      },
+      {
+        "intent": "default",
+        "entities": [],
+        "text": "agf dffg dfgdfg jyl"
+      },
+      {
+        "intent": "default",
+        "entities": [],
+        "text": "dance with me"
+      },
+      {
+        "intent": "default",
+        "entities": [],
+        "text": "may i know your name"
+      },
+      {
+        "intent": "default",
+        "entities": [],
+        "text": "i play football"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
